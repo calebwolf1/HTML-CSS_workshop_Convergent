@@ -1,21 +1,91 @@
-/* style.css */
-
 body {
-  background-color: #f0f0f0;
   font-family: Arial, sans-serif;
-  color: #333;
-  text-align: center;
   margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+.page {
+  display: none;
   padding: 20px;
 }
 
+.page.active {
+  display: block;
+}
+
 h1 {
-  color: #007acc;
-  font-size: 36px;
+  color: #333;
+}
+
+.project-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-list li {
+  margin-bottom: 20px;
+}
+
+.project-list h2 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.project-list p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.project-list a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.project-list a:hover {
+  text-decoration: underline;
+}
+
+.contact-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
   margin-bottom: 10px;
 }
 
-p {
-  font-size: 18px;
-  color: #555;
+.contact-info a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
 }
